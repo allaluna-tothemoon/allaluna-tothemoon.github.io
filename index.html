@@ -44,7 +44,7 @@
 </head>
 <body>
   <header>
-    <h1>👶 BabyTracker</h1>
+    <h1>👶 FirstYears Baby Tracker</h1>
     <p>The easiest way to track feedings, diapers, and baby routines</p>
   </header>
 
@@ -74,6 +74,23 @@
         <p>See a clear summary of your baby's care history with charts and insights.</p>
       </div>
     </div>
+  </section>
+
+  <section>
+    <h2>📬 For Support and Feedback</h2>
+    <a href="mailto:allaluna.tothemoon@gmail.com"></a>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const user = "allaluna.tothemoon";
+        const domain = "gmail.com";
+        const link = document.getElementById("emailLink");
+        link.href = "mailto:" + user + "@" + domain;
+        link.textContent = user + "@" + domain;
+      });
+    </script>
+
+    <a id="emailLink" href="#">Loading email...</a>
   </section>
 
   <section>
